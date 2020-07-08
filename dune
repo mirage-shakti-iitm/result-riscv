@@ -1,7 +1,8 @@
 (library
  (name result)
  (public_name result)
- (modules result))
+ (modules result)
+ (ocamlopt_flags (-S)))
 
 (rule
  (with-stdout-to
