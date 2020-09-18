@@ -2,7 +2,7 @@
  (name result)
  (public_name result)
  (modules result)
- (ocamlopt_flags (-S)))
+ (ocamlopt_flags (-S -function-sections)))
 
 (rule
  (with-stdout-to
